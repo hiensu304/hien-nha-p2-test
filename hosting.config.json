@@ -1,1 +1,5 @@
-{ "schemaVersion": 1, "origin": "https://example.test", "base": "/" }
+{
+  "schemaVersion": 1,
+  "origin": "https://hiensu304.github.io",
+  "base": "/hien-nha-p2-test/"
+}

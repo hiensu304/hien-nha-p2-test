@@ -2,33 +2,50 @@
   "schemaVersion": 3,
   "id": "my-home",
   "presentation": {
-    "name": "Hiên Nhà của bạn",
-    "tagline": "Một góc nhỏ để viết và lưu giữ.",
+    "name": "Hiên thử nghiệm P2",
+    "tagline": "Dữ liệu giả để nghiệm thu Hiên Nhà.",
     "locale": "vi",
     "profile": {
-      "name": "Người viết",
-      "bio": "Chào mừng bạn đến hiên nhà.",
-      "initials": "HN",
-      "avatar": null
+      "name": "Người thử nghiệm",
+      "bio": "Đây là hồ sơ giả, không chứa dữ liệu cá nhân.",
+      "initials": "P2",
+      "avatar": {
+        "path": "media/image-18868468c7bdc84614c859690c39fb8518f95dbdca5b848ee5b9396638ddc0c9.webp",
+        "alt": "Người thử nghiệm"
+      }
     },
     "theme": {
       "schemaVersion": 1,
       "palette": {
-        "background": "#faf7f0",
-        "foreground": "#29251f",
-        "accent": "#765433",
-        "surface": "#ffffff"
+        "background": "#15292d",
+        "foreground": "#e6ede7",
+        "accent": "#edbc76",
+        "surface": "#20383c"
       },
       "font": "serif",
       "layout": "journal"
     },
-    "modules": ["home", "profile", "posts"],
-    "banner": { "schemaVersion": 1, "layout": "plain", "image": null },
+    "modules": [
+      "home",
+      "profile",
+      "posts"
+    ],
+    "banner": {
+      "schemaVersion": 1,
+      "layout": "split",
+      "image": null
+    },
     "menu": {
       "schemaVersion": 1,
       "items": [
-        { "module": "home", "label": "Trang chủ" },
-        { "module": "profile", "label": "Về tôi" }
+        {
+          "module": "profile",
+          "label": "Về buổi thử"
+        },
+        {
+          "module": "home",
+          "label": "Góc thử nghiệm"
+        }
       ]
     }
   }

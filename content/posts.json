@@ -1,1 +1,35 @@
-{ "schemaVersion": 1, "siteId": "my-home", "posts": [] }
+{
+  "schemaVersion": 1,
+  "siteId": "my-home",
+  "posts": [
+    {
+      "id": "post-6afbffe8-4e36-4382-af31-62fcf804e5aa",
+      "title": "Chào hiên mới — dữ liệu thử P2",
+      "body": "Bài viết công khai giả để kiểm tra Pages, tìm kiếm và RSS.\n\nKhông chứa thông tin cá nhân.",
+      "media": [],
+      "visibility": "PUBLIC",
+      "published": true
+    },
+    {
+      "id": "post-0d0fa362-4601-4c84-bfad-a57c608dc5ad",
+      "title": "Ghi chú ẩn — P2 ONLY_ME",
+      "body": "HIDDEN_P2_ONLY_ME_20261123 — dữ liệu giả, phải vắng mặt trên website.",
+      "media": [
+        {
+          "path": "media/p2-only-me.webp",
+          "alt": "Ảnh giả chỉ dùng trong bài ẩn P2"
+        }
+      ],
+      "visibility": "ONLY_ME",
+      "published": true
+    },
+    {
+      "id": "post-80a96f4c-81d9-42f5-a412-51566bf928d8",
+      "title": "Bản nháp — P2",
+      "body": "HIDDEN_P2_DRAFT_20261123 — không được xuất bản.",
+      "media": [],
+      "visibility": "PUBLIC",
+      "published": false
+    }
+  ]
+}
